@@ -1,0 +1,81 @@
+{
+	"name": "keyword-match-types",
+	"displayName": "Keyword Match Types",
+	"description": "Quickly change keyword match types of highlighted lines. Convert between exact match, phrase match, broad match modified, and broad match",
+	"version": "1.0.0",
+	"publisher": "JustinClifton",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/justinclifton/keyword-match-types"
+	},
+	"icon": "Match-Types.png",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [ "Formatters" ],
+	"activationEvents": [
+		"onCommand:extension.exactMatch",
+		"onCommand:extension.phraseMatch",
+		"onCommand:extension.BMM",
+		"onCommand:extension.broadMatch"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.exactMatch",
+				"title": "Exact Match"
+			},
+			{
+				"command": "extension.phraseMatch",
+				"title": "Phrase Match"
+			},
+			{
+				"command": "extension.BMM",
+				"title": "Broad Match Modified"
+			},
+			{
+				"command": "extension.broadMatch",
+				"title": "Broad Match"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.exactMatch",
+				"key": "shift+alt+e",
+				"mac": "shift+alt+e"
+			},
+			{
+				"command": "extension.phraseMatch",
+				"key": "shift+alt+p",
+				"mac": "shift+alt+p"
+			},
+			{
+				"command": "extension.BMM",
+				"key": "shift+alt+m",
+				"mac": "shift+alt+m"
+			},
+			{
+				"command": "extension.broadMatch",
+				"key": "shift+alt+b",
+				"mac": "shift+alt+b"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.48.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.0.1",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.4.0"
+	}
+}
