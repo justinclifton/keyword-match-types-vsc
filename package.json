@@ -6,7 +6,7 @@
 	"publisher": "JustinClifton",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/justinclifton/keyword-match-types"
+		"url": "https://github.com/justinclifton/keyword-match-types-vsc"
 	},
 	"icon": "Match-Types.png",
 	"engines": {
