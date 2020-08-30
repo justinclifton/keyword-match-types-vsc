@@ -1,4 +1,4 @@
-# Keyword MatchTypes README
+# Keyword Match Types README
 
 This extension is useful for anyone that uses VS code to work with keyword match types. You can use the commands in this extension to quickly and easily convert between various match types.
 
@@ -27,8 +27,13 @@ There are no known issues with this extension at this time.
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.2
+Added demo gif of extension commands to README.
 
+### 1.0.1
+Improved README formatting, removed unnecessary files.
+
+### 1.0.0
 Initial release of the extension.
 
 -----------------------------------------------------------------------------------------------------------
