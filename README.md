@@ -6,9 +6,9 @@ This extension is useful for anyone that uses VS code to work with keyword match
 
 This extension adds 4 commands to VS code for the 4 different keyword matchtypes. Match type examples and descriptions of the commands are below. Simply highlight the lines of text that you want to convert to a specific match type and then run the corresponding command.
 
-[exact match]
-"phrase match"
-+broad +match +modified
+[exact match]<br/>
+"phrase match"<br/>
++broad +match +modified<br/>
 broad match
 
 Exact Match: Returns lines of text which are wrapped in brackets. If this command is run on text lines that are arleady exact match, it returns text lines with no special keyword formatting (in other words, broad match). By default this command is associated with the keyboard shortcut "shift + alt + e" but it can also be run by directly searching for the command after pressing "shift + cmd + p" (for mac) or "shift + ctrl + p" (for Windows).
