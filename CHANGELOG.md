@@ -1,9 +1,10 @@
-# Change Log
+## Release Notes
 
-All notable changes to the "matchtypes" extension will be documented in this file.
+### 1.0.2
+Added demo gif of extension commands to README.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 1.0.1
+Improved README formatting, removed unnecessary files.
 
-## [Unreleased]
-
-- Initial release
+### 1.0.0
+Initial release of the extension.
