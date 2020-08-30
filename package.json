@@ -2,7 +2,7 @@
 	"name": "keyword-match-types",
 	"displayName": "Keyword Match Types",
 	"description": "Quickly change keyword match types of highlighted lines. Convert between exact match, phrase match, broad match modified, and broad match",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "JustinClifton",
 	"repository": {
 		"type": "git",
