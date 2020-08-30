@@ -2,6 +2,8 @@
 
 This extension is useful for anyone that uses VS code to work with keyword match types. You can use the commands in this extension to quickly and easily convert between various match types.
 
+![](demo.gif)
+
 ## Features
 
 This extension adds 4 commands to VS code for the 4 different keyword matchtypes. Match type examples and descriptions of the commands are below. Simply highlight the lines of text that you want to convert to a specific match type and then run the corresponding command.
