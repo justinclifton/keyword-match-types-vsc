@@ -2,7 +2,7 @@
 	"name": "keyword-match-types",
 	"displayName": "Keyword Match Types",
 	"description": "Quickly change keyword match types of highlighted lines. Convert between exact match, phrase match, broad match modified, and broad match",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "JustinClifton",
 	"repository": {
 		"type": "git",
@@ -77,5 +77,10 @@
 		"mocha": "^8.0.1",
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "69885817-4d42-4b01-80b4-42571244e150",
+		"publisherDisplayName": "Justin Clifton",
+		"publisherId": "2b1d1b9e-6935-4e71-a727-1040b56b834e"
 	}
 }

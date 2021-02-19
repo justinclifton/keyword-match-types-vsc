@@ -29,7 +29,7 @@ function activate(context) {
 
 		if (isSingleLine) {
 			selectionLength = editor.document.getText(selection).length;
-			lines = editor.document.getText(selection).replace(/\s/g, "").split(",");
+			lines = editor.document.getText(selection).split(",");
 		} else {
 			selectionLength = editor.document.lineAt(endPoint).text.length;
 			for (let i = startPoint; i <= endPoint; i++) {
@@ -59,7 +59,7 @@ function activate(context) {
 
 		editor.edit((editBuilder) => {
 			isSingleLine
-				? editBuilder.replace(selection, updatedLines.join(", "))
+				? editBuilder.replace(selection, updatedLines.join(","))
 				: editBuilder.replace(
 						new vscode.Range(startPoint, 0, endPoint, selectionLength),
 						updatedLines.join("\n")
@@ -82,7 +82,7 @@ function activate(context) {
 
 		if (isSingleLine) {
 			selectionLength = editor.document.getText(selection).length;
-			lines = editor.document.getText(selection).replace(/\s/g, "").split(",");
+			lines = editor.document.getText(selection).split(",");
 		} else {
 			selectionLength = editor.document.lineAt(endPoint).text.length;
 			for (let i = startPoint; i <= endPoint; i++) {
@@ -116,7 +116,7 @@ function activate(context) {
 
 		editor.edit((editBuilder) => {
 			isSingleLine
-				? editBuilder.replace(selection, updatedLines.join(", "))
+				? editBuilder.replace(selection, updatedLines.join(","))
 				: editBuilder.replace(
 						new vscode.Range(startPoint, 0, endPoint, selectionLength),
 						updatedLines.join("\n")
@@ -139,7 +139,7 @@ function activate(context) {
 
 		if (isSingleLine) {
 			selectionLength = editor.document.getText(selection).length;
-			lines = editor.document.getText(selection).replace(/\s/g, "").split(",");
+			lines = editor.document.getText(selection).split(",");
 		} else {
 			selectionLength = editor.document.lineAt(endPoint).text.length;
 			for (let i = startPoint; i <= endPoint; i++) {
@@ -171,7 +171,7 @@ function activate(context) {
 
 		editor.edit((editBuilder) => {
 			isSingleLine
-				? editBuilder.replace(selection, updatedLines.join(", "))
+				? editBuilder.replace(selection, updatedLines.join(","))
 				: editBuilder.replace(
 						new vscode.Range(startPoint, 0, endPoint, selectionLength),
 						updatedLines.join("\n")
@@ -193,7 +193,7 @@ function activate(context) {
 
 		if (isSingleLine) {
 			selectionLength = editor.document.getText(selection).length;
-			lines = editor.document.getText(selection).replace(/\s/g, "").split(",");
+			lines = editor.document.getText(selection).split(",");
 		} else {
 			selectionLength = editor.document.lineAt(endPoint).text.length;
 			for (let i = startPoint; i <= endPoint; i++) {
@@ -224,7 +224,7 @@ function activate(context) {
 
 		editor.edit((editBuilder) => {
 			isSingleLine
-				? editBuilder.replace(selection, updatedLines.join(", "))
+				? editBuilder.replace(selection, updatedLines.join(","))
 				: editBuilder.replace(
 						new vscode.Range(startPoint, 0, endPoint, selectionLength),
 						updatedLines.join("\n")

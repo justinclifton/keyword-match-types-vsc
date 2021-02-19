@@ -6,7 +6,7 @@ This extension is useful for anyone that uses VS code to work with keyword match
 
 ## Features
 
-This extension adds 4 commands to VS code for the 4 different keyword matchtypes. Match type examples and descriptions of the commands are below. Simply highlight the lines of text that you want to convert to a specific match type and then run the corresponding command.
+This extension adds 4 commands to VS code for the 4 different keyword match types. Match type examples and descriptions of the commands are below. Simply highlight the lines of text that you want to convert to a specific match type and then run the corresponding command.
 
 [exact match]<br/>
 "phrase match"<br/>
@@ -26,6 +26,9 @@ Broad Match: Returns lines of text with no special match type formatting. If thi
 There are no known issues with this extension at this time.
 
 ## Release Notes
+
+### 1.0.3
+Fixed a bug where the extension stripped out spaces during match type conversions of single line selections. Cleaned up extensions files.
 
 ### 1.0.2
 Added demo gif of extension commands to README.
